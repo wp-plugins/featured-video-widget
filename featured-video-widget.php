@@ -2,8 +2,8 @@
 /*
 Plugin Name: Featured Video Widget
 Plugin URI: http://qass.im/my-plugins/
-Description: Add featured Youtube or Vimeo video in your sidebar easily, responsive and customize height.
-Version: 1.0.0
+Description: Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive and customize height.
+Version: 1.0.1
 Author: Qassim Hassan
 Author URI: http://qass.im/
 License: GPLv2 or later
@@ -29,7 +29,7 @@ License: GPLv2 or later
 // Featured Video Widget
 class QassimFeaturedVideoWidget extends WP_Widget {
 	function QassimFeaturedVideoWidget() {
-		parent::__construct( false, 'Featured Video', array('description' => 'Display featured video from youtube or vimeo.') );
+		parent::__construct( false, 'Featured Video', array('description' => 'Display featured video from youtube or vimeo or keek.') );
 	}
 
 	function widget( $args, $instance ) {
@@ -37,10 +37,7 @@ class QassimFeaturedVideoWidget extends WP_Widget {
 		$title = $instance['title'];
 		$video = $instance['videolink'];
 		$height = $instance['height'];
-
-		if( empty($title) ){
-			$title = 'Featured Video';
-		}
+		
 		if( empty($height) ){
 			$height = '220';
 		}
@@ -48,20 +45,27 @@ class QassimFeaturedVideoWidget extends WP_Widget {
 		?>
             <?php 
 			if( !empty($video) ){
-				if( preg_match("/(youtube)+/", $video) or preg_match("/(youtu.be)+/", $video) ){
+				if( preg_match("/(youtube.com)+/", $video) or preg_match("/(youtu.be)+/", $video) ){
 					$protocol 	= array('http://', 'https://', 'www.', 'youtube.com', 'youtu.be', 'embed', 'watch?v=', '/');
 					$video_link = str_replace($protocol, '', $video);
 					$the_result = '<iframe style="width:100%;max-width:100%;display:block;height:'.$height.'px;" src="http://youtube.com/embed/'.$video_link.'" allowfullscreen></iframe>';
 				}
-				elseif( preg_match("/(vimeo)+/", $video) ){
+				elseif( preg_match("/(vimeo.com)+/", $video) ){
 					$protocol 	= array('http://', 'https://', 'www.', 'vimeo.com', '/');
 					$video_link = str_replace($protocol, '', $video);
 					$the_result = '<iframe style="width:100%;max-width:100%;display:block;height:'.$height.'px;" src="http://player.vimeo.com/video/'.$video_link.'" allowfullscreen></iframe>';
+				}
+				elseif( preg_match("/(keek.com)+/", $video) ){
+					$regex = array("/.*\\/(?=[^\\/]*\\/)|\\//m");
+					$preg_replace = preg_replace($regex, "", $video);
+					$str_replace = str_replace("keek", "", $preg_replace);
+					$video_link = "https://www.keek.com/keek/$str_replace/embed?autoplay=0&mute=0&controls=1&loop=0";
+					$the_result = '<iframe style="width:100%;max-width:100%;display:block;height:'.$height.'px;" src="'.$video_link.'" allowfullscreen></iframe>';
 				}else{
-					$the_result = '<ul><li>Error video link! Please add youtube or vimeo video link only.</li></ul>';
+					$the_result = '<ul><li>Error video link! Please add youtube or vimeo or keek video link only.</li></ul>';
 				}
 			}else{
-				$the_result = '<ul><li>Please add youtube or vimeo video link.</li></ul>';
+				$the_result = '<ul><li>Please add youtube or vimeo or keek video link.</li></ul>';
 			}
 			?>
             

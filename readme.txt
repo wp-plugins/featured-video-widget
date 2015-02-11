@@ -1,26 +1,27 @@
 ﻿=== Featured Video Widget ===
 Contributors: Qassim.Dev
 Donate link: http://j.mp/plugins_donation
-Tags: video widget, responsive, responsive widget, responsive video, featured, featured video, featured video widget, featured widget, video, youtube, vimeo, image, images, shortcode, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments
+Tags: video widget, responsive, responsive widget, responsive video, featured, featured video, featured video widget, featured widget, video, youtube, vimeo, keek, image, images, shortcode, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add featured Youtube or Vimeo video in your sidebar easily, responsive and customize height.
+Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive and customize height.
 
 == Description ==
 
 ### Featured Video Widget  
 
-Add featured Youtube or Vimeo video in your sidebar easily, responsive and customize height.
+Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive and customize height.
 
 ### The Features
 
 * Responsive Video.
-* Youtube And Vimeo Support.
+* Youtube And Vimeo And Keek Support.
 * Customize Height.
+* Easy.
 
 ### Live Demo
 
@@ -59,7 +60,7 @@ Add featured Youtube or Vimeo video in your sidebar easily, responsive and custo
 1. Upload 'featured-video-widget' folder to the '/wp-content/plugins/' directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to Appearance > Widgets > Featured Video.
-4. Drag and drop "Featured Video" widget and open it and enter video link, youtube or vimeo only.
+4. Drag and drop "Featured Video" widget and open it and enter video link, youtube or vimeo or keek only.
 5. Change height if you want, default height is 220.
 
 == Frequently Asked Questions ==
@@ -74,5 +75,6 @@ Add featured Youtube or Vimeo video in your sidebar easily, responsive and custo
 = 1.0.0 =
 First version.
 
-== Upgrade Notice ==
-Currently not available.
+= 1.0.1 =
+1. Keek videos support.
+2. Remove default title.
