@@ -21,7 +21,6 @@ Add featured Youtube or Vimeo video in your sidebar easily, responsive and custo
 * Responsive Video.
 * Youtube And Vimeo Support.
 * Customize Height.
-* Easy.
 
 ### Live Demo
 
@@ -62,7 +61,6 @@ Add featured Youtube or Vimeo video in your sidebar easily, responsive and custo
 3. Go to Appearance > Widgets > Featured Video.
 4. Drag and drop "Featured Video" widget and open it and enter video link, youtube or vimeo only.
 5. Change height if you want, default height is 220.
-6. Enjoy.
 
 == Frequently Asked Questions ==
 
