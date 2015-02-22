@@ -25,7 +25,7 @@ Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive a
 
 ### Live Demo
 
-* [http://qass.im/my-plugins/](http://qass.im/my-plugins/)
+* [http://wp-time.com/](http://wp-time.com/)
 
 ### Rate The Plugin
 
