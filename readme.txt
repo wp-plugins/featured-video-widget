@@ -31,9 +31,9 @@ Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive a
 
 * [Please rate Featured Video Widget plugin](https://wordpress.org/support/view/plugin-reviews/featured-video-widget#postform)
 
-### Download Zaman WordPress Blog Theme
+### Download Davinci WordPress Blog Theme
 
-* [Responsive and Retina WordPress blog Theme with a lot of features](http://j.mp/zaman_theme)
+* [Responsive and Retina WordPress blog Theme with a lot of features](http://wp-time.com/a-premium-wordpress-blog-themes/)
 
 ### Beautiful WordPress Themes
 
