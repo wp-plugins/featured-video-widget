@@ -12,7 +12,7 @@ Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive a
 
 == Description ==
 
-### Featured Video Widget                            
+### Featured Video Widget                             
 
 Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive and customize height.
 
