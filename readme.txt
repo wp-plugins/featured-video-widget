@@ -4,7 +4,7 @@ Donate link: http://j.mp/plugins_donation
 Tags: video widget, responsive, responsive widget, responsive video, featured, featured video, featured video widget, featured widget, video, youtube, vimeo, keek, image, images, shortcode, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,3 +78,6 @@ First version.
 = 1.0.1 =
 1. Keek videos support.
 2. Remove default title.
+
+= 1.0.2 =
+WP Time Support.
