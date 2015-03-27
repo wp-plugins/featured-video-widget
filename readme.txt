@@ -1,6 +1,6 @@
 ﻿=== Featured Video Widget ===
 Contributors: Qassim.Dev
-Donate link: http://j.mp/plugins_donation
+Donate link: http://j.mp/WPTime_donations
 Tags: video widget, responsive, responsive widget, responsive video, featured, featured video, featured video widget, featured widget, video, youtube, vimeo, keek, image, images, shortcode, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments
 Requires at least: 3.0
 Tested up to: 4.1.1
