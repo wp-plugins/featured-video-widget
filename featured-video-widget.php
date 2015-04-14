@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Featured Video Widget
-Plugin URI: http://wp-time.com
+Plugin URI: http://wp-time.com/featured-video-widget/
 Description: Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive and customize height.
 Version: 1.0.2
 Author: Qassim Hassan
