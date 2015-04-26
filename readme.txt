@@ -3,8 +3,8 @@ Contributors: Qassim.Dev
 Donate link: http://j.mp/WPTime_donations
 Tags: video widget, responsive, responsive widget, responsive video, featured, featured video, featured video widget, featured widget, video, youtube, vimeo, keek, image, images, shortcode, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments
 Requires at least: 3.0
-Tested up to: 4.1.2
-Stable tag: 1.0.2
+Tested up to: 4.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,12 +67,15 @@ Add featured Youtube or Vimeo or Keek video in your sidebar easily, responsive a
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.1 =
 First version.
 
-= 1.0.1 =
+= 1.1 =
 1. Keek videos support.
 2. Remove default title.
 
-= 1.0.2 =
+= 1.2 =
 WP Time Support.
+
+= 1.3 =
+Fixing some problems.
