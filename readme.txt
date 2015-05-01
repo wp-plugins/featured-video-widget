@@ -83,4 +83,4 @@ WP Time Support.
 Fixing some problems.
 
 = 1.4 =
-* [WP Time need your donation.](http://j.mp/Donate_To_WPTime)
+* Support WordPress latest version.
