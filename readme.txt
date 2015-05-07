@@ -3,7 +3,7 @@ Contributors: Qassim.Dev
 Donate link: http://j.mp/WPTime_donations
 Tags: video widget, responsive, responsive widget, responsive video, featured, featured video, featured video widget, featured widget, video, youtube, vimeo, keek, image, images, shortcode, Post, plugin, posts, page, widget, admin, sidebar, google, twitter, comments
 Requires at least: 3.0
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
